@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding and viewport for mobile responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main container for responsive layout -->
+    <div class="container">
+
+    <!-- ==========  HEADER SECTION  ========== -->
+    <!-- Main header with site title and description -->
+    <header>
+        <h1>Welcome to our website</h1>
+        <p>This website shows some core fundamentals of building a HTML website. Theres also a bit of css to add some styling to the website. The code is also separated by sections to make the code neat.</p>
+    </header>
+
+    <!-- ==========  INTRO SECTION  ========== -->
+    <!-- Introduction section with website description -->
+    <section>
+        <h2>About This Website</h2>
+        <p>This is a very simple website built with plain HTML and CSS(To add some styling). It demonstrates common elements such as sections, headings, paragraphs, lists, tables, forms, links, and images.</p>
+        
+    </section>
+
+    <!-- ==========  LISTS SECTION  ========== -->
+    <!-- Demonstrates unordered and ordered lists -->
+    <section>
+        <h2>Lists</h2>
+
+        <h3>Unordered List</h3>
+        <!-- Bullet point list -->
+        <ul>
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Cherries</li>
+        </ul>
+
+        <h3>Ordered List</h3>
+        <!-- Numbered list -->
+        <ol>
+            <li>First step</li>
+            <li>Second step</li>
+            <li>Third step</li>
+        </ol>
+    </section>
+
+    <!-- ==========  TABLE SECTION  ========== -->
+    <!-- Data table with employee information -->
+    <section>
+        <h2>Simple Table</h2>
+        <table>
+            <!-- Table header -->
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <!-- Table body with data rows -->
+            <tbody>
+                <tr>
+                    <td>Alice Johnson</td>
+                    <td>Designer</td>
+                    <td>$50,000</td>
+                </tr>
+                <tr>
+                    <td>Bob Smith</td>
+                    <td>Developer</td>
+                    <td>$60,000</td>
+                </tr>
+                <tr>
+                    <td>Carol White</td>
+                    <td>Manager</td>
+                    <td>$70,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- ==========  FORM SECTION  ========== -->
+    <!-- Contact form with various input types -->
+    <section>
+        <h2>Contact Form</h2>
+        <form action="#" method="post">
+            <!-- Text input with label -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your full name">
+
+            <!-- Email input with validation -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com">
+
+            <!-- Multi-line text area -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="How can we help you?"></textarea>
+
+            <!-- Submit button -->
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- ==========  LINKS & IMAGES SECTION  ========== -->
+    <!-- External links and responsive images -->
+    <section>
+        <h2>Links & Images</h2>
+
+        <p>Here is the link to our sourcecode</p>
+        <!-- External link that opens in new tab -->
+        <a href="image.jpg" target="_blank">Source Code</a>
+
+        <p>Image</p>
+        <!-- Responsive image with alt text for accessibility -->
+        <img src="image.jpg" alt="Placeholder image">
+    </section>
+
+    <!-- ==========  FOOTER SECTION  ========== -->
+    <!-- Site footer with credits -->
+    <footer>
+        This website is built by a combined efforts of a group of students.
+    </footer>
+
+    </div>
+</body>
+</html>
